@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.product-small-img img{
+			width: 100%;
+			/*border: 1px solid rgba(0,0,0,.2);*/
+			padding: 8px;
+			margin: 10px 10px 15px;
+			cursor: pointer;
+		}
+		.product-small-img {
+			width: 8%;
+			display: flex;
+		}
+
+		.img-container img {
+			height: 460px;
+		}
+		.img-container {
+			padding: 10px;
+			width: 45%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="product" style="margin-left: 3em">
+		<div class="img-container">
+			<img id="imageBox" src="img/ropa/basico_tela_viscosa.jpeg">
+		</div>
+		<div class="product-small-img">
+			<img src="img/ropa/basico_tela_viscosa.jpeg" onclick="vistazo(this)">
+			<img src="img/ropa/blusa_de_chalina.jpeg" onclick="vistazo(this)">
+			<img src="img/ropa/pijamas_de_algodon.jpeg" onclick="vistazo(this)">
+		</div>		
+	</div>
+	<script>
+		function vistazo(smallImg){
+			var fullImg = document.getElementById('imageBox');			
+			fullImg.src = smallImg.src;
+		}
+	</script>
+
+</body>
+</html>
