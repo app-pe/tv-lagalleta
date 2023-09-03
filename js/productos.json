@@ -1,17 +1,17 @@
 [            
       {
       "producto": "Frac chocolate",
-      "imagen": "galletafracchoco.jpg",
+      "imagen": "img/galletafracchoco.jpg",
       "precio": "1"
       },     
       {
       "producto": "Frac crema de chocolate",
-      "imagen": "galletafrac.jpg",
+      "imagen": "img/galletafrac.jpg",
       "precio": "1"
       },       
       {
       "producto": "Frac crema de vainilla",
-      "imagen": "galletafracvainilla.jpg",
+      "imagen": "img/galletafracvainilla.jpg",
       "precio": "1"
       }           
 ]
